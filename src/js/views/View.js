@@ -2,7 +2,6 @@ import icons from '../../img/icons.svg';
 export default class View {
   _data;
   render(data) {
-    console.log(data);
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
 
